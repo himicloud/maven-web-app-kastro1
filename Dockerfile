@@ -6,4 +6,4 @@ EXPOSE 8080
 
 # Copy the war file to the webapps directory of Tomcat
 #making random changes
-COPY app.war /usr/local/tomcat/webapps/
+COPY maven-web-app.war /usr/local/tomcat/webapps/
